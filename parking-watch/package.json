@@ -1,0 +1,16 @@
+{
+  "name": "parking-watch",
+  "version": "1.0.0",
+  "description": "Orchid Park slot directory & one-tap parking violation reporting",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13"
+  }
+}
